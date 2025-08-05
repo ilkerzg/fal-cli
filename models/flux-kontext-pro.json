@@ -1,0 +1,17 @@
+{
+  "id": "fal-ai/flux-pro/kontext/text-to-image",
+  "name": "FLUX Pro Kontext",
+  "description": "Professional FLUX model with enhanced context understanding",
+  "category": "Professional",
+  "costPerImage": 0.04,
+  "defaultParams": {
+    "aspect_ratio": "16:9",
+    "num_images": 1,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 28
+  },
+  "supportedAspectRatios": ["1:1", "4:3", "3:4", "16:9", "9:16", "21:9", "9:21"],
+  "supportedFormats": ["jpeg", "png"],
+  "maxImages": 4,
+  "optimization_system_prompt": "You are optimizing prompts for FLUX Pro Kontext, which excels at contextual coherence and maintaining consistency across compositional elements. This model interprets prompts through sophisticated contextual understanding, preserving character consistency and spatial relationships better than standard models. Focus on: 1) Structure prompts with clear contextual relationships between elements - the model excels when objects, people, and environments have logical connections. 2) Use detailed descriptive language for spatial arrangements and compositional balance - the model responds well to specific positioning and environmental context. 3) Emphasize character consistency and environmental coherence - describe how elements relate to each other within the scene. 4) Leverage the model's strength in maintaining visual consistency across complex scenes with multiple focal points. 5) Include contextual details that establish mood, atmosphere, and logical scene progression. 6) Structure prompts with layered descriptions that build context progressively. Example optimizations: 'office meeting' → 'boardroom scene with executives seated around polished conference table, each participant engaged in collaborative discussion, natural light streaming through tall windows illuminating documents spread across table surface, body language conveying attentive focus, modern architectural elements creating structured professional environment'"
+}

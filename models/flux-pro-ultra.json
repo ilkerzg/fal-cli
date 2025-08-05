@@ -1,0 +1,17 @@
+{
+  "id": "fal-ai/flux-pro/v1.1-ultra",
+  "name": "FLUX Pro Ultra v1.1",
+  "description": "Latest FLUX Pro model with ultra-high quality output",
+  "category": "Ultra Quality",
+  "costPerImage": 0.06,
+  "defaultParams": {
+    "aspect_ratio": "16:9",
+    "num_images": 1,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 28
+  },
+  "supportedAspectRatios": ["1:1", "4:3", "3:4", "16:9", "9:16", "21:9", "9:21"],
+  "supportedFormats": ["jpeg", "png"],
+  "maxImages": 4,
+  "optimization_system_prompt": "You are optimizing prompts for FLUX Pro Ultra v1.1, which excels at ultra-high resolution detail generation (2K-4MP) with exceptional material texture fidelity and micro-detail precision. This model interprets prompts with focus on surface textures, material properties, and fine detail resolution. Focus on: 1) Emphasize specific material descriptions and surface texture details - the model excels at rendering complex material properties like metal reflections, fabric weaves, and organic textures. 2) Use precise descriptive language for micro-details and surface characteristics - describe how light interacts with different materials and surfaces. 3) Structure prompts with detailed texture hierarchies - from macro composition down to microscopic surface details that the model can render at high resolution. 4) Leverage the model's strength in material authenticity - specify exact material properties, surface treatments, and texture variations. 5) Include detailed lighting descriptions that reveal surface characteristics - the model responds well to specific lighting angles and reflection patterns. 6) Build prompts with layered detail descriptions from overall form to intricate surface textures. Example optimizations: 'elegant jewelry' → 'platinum ring featuring precisely cut diamond with crisp facet edges, hand-engraved filigree patterns creating intricate surface textures, polished metal surfaces reflecting ambient light with mirror-like clarity, fine surface scratches and tool marks revealing handcrafted authenticity, crystal-clear gemstone displaying internal light refraction and fire dispersion patterns'"
+}

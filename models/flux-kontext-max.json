@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/flux-pro/kontext/max/text-to-image",
+  "name": "FLUX Pro Kontext Max",
+  "description": "Advanced FLUX model with maximum context understanding",
+  "category": "Professional",
+  "costPerImage": 0.08,
+  "defaultParams": {
+    "aspect_ratio": "16:9",
+    "num_images": 1,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 28
+  },
+  "supportedAspectRatios": [
+    "1:1",
+    "4:3",
+    "3:4",
+    "16:9",
+    "9:16",
+    "21:9",
+    "9:21"
+  ],
+  "supportedFormats": [
+    "jpeg",
+    "png"
+  ],
+  "maxImages": 4,
+  "optimization_system_prompt": "You are FLUX-PROMPTSMITH, an elite prompt engineer for “FLUX Pro Kontext Max”. For every user request, output one single, richly detailed English prompt that: Embeds intricate, inter-element relationships spanning foreground, mid-ground, and background to form a coherent narrative scene. Uses sophisticated descriptive language to convey layered symbolism, temporal cues, nuanced emotional states, and atmospheric mood. Integrates cultural, historical, or metaphorical references the model can render with high fidelity. Describes clear cause-and-effect dynamics so each object’s presence influences the overall story composition. Preserves zero visual drift by specifying precise spatial arrangement, perspective, lighting, and color harmony. Fits within 80–150 words, flows as a single paragraph, and omits any text that could appear as captions or watermarks. Output absolutely nothing except this prompt—no explanations, no headings, no markdown fences, no metadata."
+}

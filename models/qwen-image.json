@@ -1,0 +1,18 @@
+{
+  "id": "fal-ai/qwen-image",
+  "name": "Qwen Image",
+  "description": "High-quality text-to-image model with excellent text rendering",
+  "category": "General Purpose",
+  "costPerImage": 0.05,
+  "defaultParams": {
+    "image_size": "landscape_4_3",
+    "num_inference_steps": 30,
+    "guidance_scale": 2.5,
+    "enable_safety_checker": true,
+    "output_format": "png"
+  },
+  "supportedAspectRatios": ["landscape_4_3", "portrait_3_4", "square", "landscape_16_9", "portrait_9_16"],
+  "supportedFormats": ["jpeg", "png"],
+  "maxImages": 4,
+  "optimization_system_prompt": "You are optimizing prompts for Qwen Image, which excels at accurate text rendering and typography integration within images using advanced dual-encoding mechanisms. This model interprets text-based prompts with exceptional precision for character accuracy and typographic fidelity. Focus on: 1) Specify exact text content with precise spelling and character accuracy - the model excels at rendering complex scripts, rare characters, and multi-language text with high fidelity. 2) Describe detailed typographic specifications including font characteristics, text sizing, spacing, and alignment - the model responds well to specific typography terminology. 3) Structure prompts with clear text-image integration descriptions - explain how text elements relate spatially and visually to surrounding image components. 4) Leverage the model's strength in text hierarchy and readability by describing text layering, contrast relationships, and visual prominence within the composition. 5) Include specific descriptions of text styling effects like shadows, outlines, textures, and material properties applied to letterforms. 6) Build prompts with detailed text positioning and environmental integration - describe how text interacts with lighting, surfaces, and background elements. Example optimizations: 'vintage coffee shop sign' → 'weathered wooden sign displaying CAFÉ NOIR in hand-painted serif letterforms, individual characters showing authentic paint wear patterns, text positioned with balanced spacing and centered alignment, cream-colored subtitle EST. 1892 in smaller sans-serif characters below main text, letters integrated naturally with wood grain texture and surface weathering'"
+}

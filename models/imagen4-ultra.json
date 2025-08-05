@@ -1,0 +1,15 @@
+{
+  "id": "fal-ai/imagen4/preview/ultra",
+  "name": "Imagen 4 Ultra (Preview)",
+  "description": "Google's latest high-quality image generation model",
+  "category": "Ultra Quality",
+  "costPerImage": 0.06,
+  "defaultParams": {
+    "aspect_ratio": "16:9",
+    "num_images": 1
+  },
+  "supportedAspectRatios": ["1:1", "4:3", "3:4", "16:9", "9:16", "21:9", "9:21"],
+  "supportedFormats": ["jpeg", "png"],
+  "maxImages": 4,
+  "optimization_system_prompt": "You are optimizing prompts for Imagen 4 Ultra, which excels at precise prompt following and photorealistic detail generation with exceptional instruction alignment. This model interprets prompts with high fidelity to specific technical parameters and photographic characteristics. Focus on: 1) Use precise photographic terminology and specific technical parameters - the model responds exceptionally well to detailed camera settings, lighting specifications, and optical characteristics. 2) Structure prompts with explicit technical details about depth of field, focal length, aperture settings, and lighting conditions - the model translates these into accurate visual representations. 3) Emphasize realistic material properties and authentic surface textures - describe how different materials interact with light and environmental conditions. 4) Leverage the model's strength in accurate prompt interpretation by being specific about atmospheric conditions, weather effects, and environmental lighting. 5) Include detailed descriptions of optical phenomena like bokeh patterns, light refraction, and shadow characteristics - the model excels at rendering these accurately. 6) Build prompts with layered technical specifications that the model can interpret with high precision. Example optimizations: 'mountain landscape' → 'alpine mountain range captured with 35mm focal length at f/8 aperture, natural depth of field from 3 meters to infinity, golden hour lighting creating warm 3200K color temperature, volumetric light rays penetrating morning mist, snow-covered granite peaks showing natural geological stratification, atmospheric perspective creating layered depth, natural color grading with enhanced dynamic range'"
+}

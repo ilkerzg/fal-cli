@@ -1,0 +1,71 @@
+{
+  "name": "fal-cli",
+  "version": "3.0.0",
+  "description": "🎎 Professional CLI for FAL AI Models - Generate high-quality images with FLUX, Imagen, and more",
+  "type": "module",
+  "main": "cli.js",
+  "bin": {
+    "fal-cli": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "dev": "node cli.js",
+    "test": "node cli.js --help",
+    "models": "node cli.js models",
+    "generate": "node cli.js generate",
+    "optimize": "node cli.js optimize",
+    "config": "node cli.js config",
+    "mcp-server": "node mcp-server.js"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "boxen": "^8.0.0",
+    "chalk": "^5.0.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.0.0",
+    "fs-extra": "^11.0.0",
+    "inquirer": "^10.0.0",
+    "open": "^10.2.0",
+    "ora": "^8.0.0"
+  },
+  "keywords": [
+    "fal",
+    "ai",
+    "image-generation",
+    "cli",
+    "mcp",
+    "model-context-protocol",
+    "flux",
+    "stable-diffusion",
+    "imagen",
+    "qwen",
+    "openapi",
+    "batch-processing",
+    "prompt-optimization"
+  ],
+  "author": "ilkerzg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilkerzg/fal-cli"
+  },
+  "homepage": "https://github.com/ilkerzg/fal-cli#readme",
+  "bugs": {
+    "url": "https://github.com/ilkerzg/fal-cli/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "cli.js",
+    "models-new.js",
+    "models/",
+    "README.md"
+  ],
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "keytar"
+    ]
+  }
+}
